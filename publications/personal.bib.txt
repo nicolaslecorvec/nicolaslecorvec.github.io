@@ -35,14 +35,6 @@
    type = {Report}
 }
 
-@phdthesis{RN4,
-   author = {Le Corvec, Nicolas},
-   title = {Socompa volcano destabilisation (Chile) and fragmentation of debris avalanches},
-   university = {Université Blaise Pascal},
-   year = {2005},
-   type = {Thesis}
-}
-
 @article{RN5,
    author = {Le Corvec, Nicolas and Bebbington, Mark S. and Lindsay, Jan M. and McGee, Lucy E.},
    title = {Age, distance, and geochemical evolution within a monogenetic volcanic field: Analyzing patterns in the Auckland Volcanic Field eruption sequence},
@@ -54,16 +46,6 @@
    DOI = {10.1002/ggge.20223},
    url = {http://dx.doi.org/10.1002/ggge.20223},
    year = {2013},
-   type = {Journal Article}
-}
-
-@article{RN6,
-   author = {Le Corvec, Nicolas and McGovern, P. J.},
-   title = {Volcanic Spreading on Mars: Role of a Basal Decollement on Faulting and Magma Propagation},
-   journal = {Lunar Planet. Sci. 46th},
-   volume = {Abstract 1832},
-   pages = {2891},
-   year = {2015},
    type = {Journal Article}
 }
 
@@ -80,15 +62,6 @@
    type = {Journal Article}
 }
 
-@article{RN8,
-   author = {Le Corvec, Nicolas and McGovern, P. J. and Grosfils, E.},
-   title = {Effects of crustal-scale mechanical layering on magma chamber failure and magma propagation within the Venusian lithosphere},
-   journal = {Lunar Planet. Sci. 45th},
-   volume = {Abstract 2330},
-   year = {2014},
-   type = {Journal Article}
-}
-
 @article{RN9,
    author = {Le Corvec, Nicolas and McGovern, Patrick J. and Grosfils, Eric B. and Galgana, Gerald},
    title = {Effects of crustal-scale mechanical layering on magma chamber failure and magma propagation within the Venusian lithosphere},
@@ -99,20 +72,6 @@
    ISSN = {2169-9100},
    DOI = {10.1002/2015je004814},
    url = {http://dx.doi.org/10.1002/2015JE004814},
-   year = {2015},
-   type = {Journal Article}
-}
-
-@misc{RN10,
-   year = {2016},
-   type = {Conference Paper}
-}
-
-@article{RN11,
-   author = {Le Corvec, N. and McGovern, P. J. and Grosfils, Eric B. and Goldman, R. T. and Albright, J. A.},
-   title = {Effects of an extensional tectonic stress on magmatic reservoir failure and magma propagation within the Venusian lithosphere},
-   journal = {AGU Fall Meeting 2015},
-   pages = {P31H-02},
    year = {2015},
    type = {Journal Article}
 }
