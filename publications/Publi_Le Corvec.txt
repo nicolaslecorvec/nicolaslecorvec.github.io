@@ -1,0 +1,14 @@
+﻿@article{RN1,
+   author = {Germa, Aurélie and Connor, Laura J and Cañon-Tapia, Edgardo and Le Corvec, Nicolas},
+   title = {Tectonic and magmatic controls on the location of post-subduction monogenetic volcanoes in Baja California, Mexico, revealed through spatial analysis of eruptive vents},
+   journal = {Bulletin of Volcanology},
+   volume = {75},
+   number = {12},
+   pages = {1-14},
+   ISSN = {0258-8900},
+   DOI = {10.1007/s00445-013-0782-6},
+   url = {http://dx.doi.org/10.1007/s00445-013-0782-6},
+   year = {2013},
+   type = {Journal Article}
+}
+
