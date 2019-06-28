@@ -2537,10 +2537,8 @@ var bibtexify = (function($) {
             if (bib.options.tweet && entryData.url) {
                 itemStr += bib2html.tweet(entryData, bib);
             }
-			itemStr += bib2html.altmetric(entryData);
             return itemStr.replace(/undefined[,.]?/g,
-									// EDIT HERE TO ADD 'MISSING'
-                                   '<span class="undefined"><\/span>');
+                                   '<span class="undefined">missing<\/span>');
         },
         // converts the given author data into HTML
         authors2html: function(authorData) {
@@ -2615,63 +2613,53 @@ var bibtexify = (function($) {
           itemStr += '" target="_blank">tweet</a>)';
           return itemStr;
         },
-        // adds the altmetric link and the opening div with Altmetric badge
-        altmetric: function(entryData, bib) {
-            var itemStr = '';
-            if (entryData.doi) {
-                itemStr += ' <div data-badge-popover="right" data-badge-type="bar" data-doi="' + entryData.doi + '" class="altmetric-embed" style="display: inline"><\/div>';
-			} 
-			return itemStr;
-		},
-		
         // helper functions for formatting different types of bibtex entries
         inproceedings: function(entryData) {
-            return this.authors2html(entryData.author) + " (" + entryData.year + "). <b>" +
-                entryData.title + "<\/b>. In <em>" + entryData.booktitle +
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+                entryData.title + ". In <em>" + entryData.booktitle +
                 ", pp. " + entryData.pages +
                 ((entryData.address)?", " + entryData.address:"") + ".<\/em>";
         },
         incollection: function(entryData) {
-            return this.authors2html(entryData.author) + " (" + entryData.year + "). <b>" +
-                entryData.title + "<\/b>. In " +
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+                entryData.title + ". In " +
                 ((entryData.editor)?"" + this.authors2html(entryData.editor) + ", editor, ":"") +
                 "<em>" + entryData.booktitle +
                 ", pp. " + entryData.pages +
                 ((entryData.address)?", " + entryData.address:"") + ".<\/em>";
         },
         article: function(entryData) {
-            return this.authors2html(entryData.author) + " (" + entryData.year + "). <b>" +
-                entryData.title + "<\/b>. <em>" + entryData.journal + ", " + entryData.volume +
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+                entryData.title + ". <em>" + entryData.journal + ", " + entryData.volume +
                 ((entryData.number)?"(" + entryData.number + ")":"")+ ", " +
                 "pp. " + entryData.pages + ". " +
                 ((entryData.address)?entryData.address + ".":"") + "<\/em>";
         },
         misc: function(entryData) {
-            return this.authors2html(entryData.author) + " (" + entryData.year + "). <b>" +
-                entryData.title + "<\/b>. " +
-                ((entryData.howpublished)?entryData.howpublished + ". ":"")
-			    // + ((entryData.note)?entryData.note + ".":"")
-			;
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+                entryData.title + ". " +
+                ((entryData.howpublished)?entryData.howpublished + ". ":"") +
+                ((entryData.note)?entryData.note + ".":"");
         },
         mastersthesis: function(entryData) {
-            return this.authors2html(entryData.author) + " (" + entryData.year + "). <b>" +
-            entryData.title + "<\/b>. " + entryData.type + ". " +
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+            entryData.title + ". " + entryData.type + ". " +
             entryData.organization + ", " + entryData.school + ".";
         },
         techreport: function(entryData) {
-            return this.authors2html(entryData.author) + " (" + entryData.year + "). <b>" +
-                entryData.title + "<\/b>. " + entryData.institution + ". " +
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+                entryData.title + ". " + entryData.institution + ". " +
                 entryData.number + ". " + entryData.type + ".";
         },
         book: function(entryData) {
             return this.authors2html(entryData.author || entryData.editor) + " (" + entryData.year + "). " +
-                " <em><b>" + entryData.title + "<\/b><\/em>, " +
+                " <em>" + entryData.title + "<\/em>, " +
                 entryData.publisher + ", " + entryData.year +
                 ((entryData.issn)?", ISBN: " + entryData.issn + ".":".");
         },
         inbook: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
-                entryData.chapter + " in <em><b>" + entryData.title + "<\/b><\/em>, " +
+                entryData.chapter + " in <em>" + entryData.title + "<\/em>, " +
                 ((entryData.editor)?" Edited by " + this.authors2html(entryData.editor) + ", ":"") +
                 entryData.publisher + ", pp. " + entryData.pages + "" +
                 ((entryData.series)?", <em>" + entryData.series + "<\/em>":"") +
@@ -2681,14 +2669,13 @@ var bibtexify = (function($) {
         },
         proceedings: function(entryData) {
             return this.authors2html(entryData.editor) + ", editor(s) (" + entryData.year + "). " +
-                " <em><b>" + entryData.title + ".<\/b><\/em>" +
+                " <em>" + entryData.title + ".<\/em>" +
                 ((entryData.volume)?", Vol. " + entryData.volume + "":"") +
                 ((entryData.address)?", " + entryData.address:"") + ". " +
                 ((entryData.organization)? + entryData.organization:"") +
                 ((entryData.organization && entryData.publisher)?", ":"") +
-                (entryData.publisher?entryData.publisher + ". ":"")
-			    // + (entryData.note?entryData.note:"")
-			    ;
+                (entryData.publisher?entryData.publisher + ". ":"") +
+                (entryData.note?entryData.note:"");
         },
         // weights of the different types of entries; used when sorting
         importance: {
@@ -2899,8 +2886,6 @@ var bibtexify = (function($) {
         legendHtml += '</div>';
         $(chartIdSelector).html(statsHtml).after(legendHtml);
     };
-
-    !function(e,t,d){var n="createElement",c="getElementsByTagName",m="setAttribute",d=document.getElementById(e);return d&&d.parentNode&&d.parentNode.removeChild(d),d=document[n+"NS"]&&document.documentElement.namespaceURI,d=d?document[n+"NS"](d,"script"):document[n]("script"),d[m]("id",e),d[m]("src",t),(document[c]("head")[0]||document[c]("body")[0]).appendChild(d),d=new Image,void d[m]("src","https://d1uo4w7k31k5mn.cloudfront.net/donut/0.png")}("altmetric-embed-js","https://d1bxh8uas1mnw7.cloudfront.net/assets/altmetric_badges-71f30fc33cff2fd0a5de8e407f36bda8.js");
 
     // Creates a new publication list to the HTML element with ID
     // bibElemId. The bibsrc can be
