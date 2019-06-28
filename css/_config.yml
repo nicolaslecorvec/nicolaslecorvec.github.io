@@ -1,0 +1,19 @@
+name: Nicolas Le Corvec
+author: Nicolas Le Corvec
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+url: http://nicolaslecorvec.github.io
+
+navigation:
+- root: Home
+  url: /
+- root: CV
+  url: /cv
+- root: Publications
+  url: /publications
+- root: Twitter
+  url: /twitter
