@@ -12,3 +12,216 @@
    type = {Journal Article}
 }
 
+@article{RN2,
+   author = {Guilbaud, Marie-Noëlle and Siebe, Claus and Layer, Paul and Salinas, Sergio and Castro-Govea, Renato and Garduño-Monroy, Victor Hugo and Le Corvec, Nicolas},
+   title = {Geology, geochronology, and tectonic setting of the Jorullo Volcano region, Michoacán, México},
+   journal = {Journal of Volcanology and Geothermal Research},
+   volume = {201},
+   number = {1-4},
+   pages = {97-112},
+   ISSN = {0377-0273},
+   DOI = {10.1016/j.jvolgeores.2010.09.005},
+   url = {http://www.sciencedirect.com/science/article/pii/S0377027310002933},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@techreport{RN3,
+   author = {Hayes, J. L. and Tsang, S. W. and Fitzgerald, R. H. and Blake, D. M. and Deligne, N. I. and Doherty, A. and Hopkins, J. L. and Hurst, A. W. and Le Corvec, N. and Leonard, G. S. and Lindsay, J. M. and Miller, C. A. and Nemeth, K. and Smid, E. and White, J. D. L. and Wilson, T. M.},
+   title = {The DEVORA scenarios: multi-hazard eruption scenarios for the Auckland Volcanic Field},
+   institution = {GNS Science},
+   DOI = {10.21420/g20652},
+   year = {2018},
+   type = {Report}
+}
+
+@phdthesis{RN4,
+   author = {Le Corvec, Nicolas},
+   title = {Socompa volcano destabilisation (Chile) and fragmentation of debris avalanches},
+   university = {Université Blaise Pascal},
+   year = {2005},
+   type = {Thesis}
+}
+
+@article{RN5,
+   author = {Le Corvec, Nicolas and Bebbington, Mark S. and Lindsay, Jan M. and McGee, Lucy E.},
+   title = {Age, distance, and geochemical evolution within a monogenetic volcanic field: Analyzing patterns in the Auckland Volcanic Field eruption sequence},
+   journal = {Geochemistry, Geophysics, Geosystems},
+   volume = {14},
+   number = {9},
+   pages = {3648-3665},
+   ISSN = {1525-2027},
+   DOI = {10.1002/ggge.20223},
+   url = {http://dx.doi.org/10.1002/ggge.20223},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN6,
+   author = {Le Corvec, Nicolas and McGovern, P. J.},
+   title = {Volcanic Spreading on Mars: Role of a Basal Decollement on Faulting and Magma Propagation},
+   journal = {Lunar Planet. Sci. 46th},
+   volume = {Abstract 1832},
+   pages = {2891},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN7,
+   author = {Le Corvec, Nicolas and McGovern, Patrick J.},
+   title = {The Effect of Ocean Loading on the Growth of Basaltic Ocean Island Volcanoes and Their Magmatic Plumbing System},
+   journal = {Frontiers in Earth Science},
+   volume = {6},
+   pages = {119},
+   ISSN = {2296-6463},
+   DOI = {10.3389/feart.2018.00119},
+   url = {https://www.frontiersin.org/article/10.3389/feart.2018.00119},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN8,
+   author = {Le Corvec, Nicolas and McGovern, P. J. and Grosfils, E.},
+   title = {Effects of crustal-scale mechanical layering on magma chamber failure and magma propagation within the Venusian lithosphere},
+   journal = {Lunar Planet. Sci. 45th},
+   volume = {Abstract 2330},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN9,
+   author = {Le Corvec, Nicolas and McGovern, Patrick J. and Grosfils, Eric B. and Galgana, Gerald},
+   title = {Effects of crustal-scale mechanical layering on magma chamber failure and magma propagation within the Venusian lithosphere},
+   journal = {Journal of Geophysical Research: Planets},
+   volume = {120},
+   number = {7},
+   pages = {2015JE004814},
+   ISSN = {2169-9100},
+   DOI = {10.1002/2015je004814},
+   url = {http://dx.doi.org/10.1002/2015JE004814},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@misc{RN10,
+   year = {2016},
+   type = {Conference Paper}
+}
+
+@article{RN11,
+   author = {Le Corvec, N. and McGovern, P. J. and Grosfils, Eric B. and Goldman, R. T. and Albright, J. A.},
+   title = {Effects of an extensional tectonic stress on magmatic reservoir failure and magma propagation within the Venusian lithosphere},
+   journal = {AGU Fall Meeting 2015},
+   pages = {P31H-02},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN12,
+   author = {Le Corvec, Nicolas and Menand, Thierry and Lindsay, Jan},
+   title = {Interaction of ascending magma with pre-existing crustal fractures in monogenetic basaltic volcanism: an experimental approach},
+   journal = {Journal of Geophysical Research: Solid Earth},
+   volume = {118},
+   number = {3},
+   pages = {968-984},
+   ISSN = {2169-9356},
+   DOI = {10.1002/jgrb.50142},
+   url = {http://dx.doi.org/10.1002/jgrb.50142},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN13,
+   author = {Le Corvec, Nicolas and Muirhead, James D. and White, James D. L.},
+   title = {Shallow magma diversions during explosive diatreme-forming eruptions},
+   journal = {Nature Communications},
+   volume = {9},
+   number = {1},
+   pages = {1459},
+   ISSN = {2041-1723},
+   DOI = {10.1038/s41467-018-03865-x},
+   url = {https://doi.org/10.1038/s41467-018-03865-x},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN14,
+   author = {Le Corvec, Nicolas and Spörli, K. Bernhard and Rowland, Julie and Lindsay, Jan},
+   title = {Spatial distribution and alignments of volcanic centers: Clues to the formation of monogenetic volcanic fields},
+   journal = {Earth-Science Reviews},
+   volume = {124},
+   pages = {96-114},
+   ISSN = {0012-8252},
+   DOI = {http://dx.doi.org/10.1016/j.earscirev.2013.05.005},
+   url = {http://www.sciencedirect.com/science/article/pii/S0012825213001037},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN15,
+   author = {Le Corvec, Nicolas and Walter, Thomas R.},
+   title = {Volcano spreading and fault interaction influenced by rift zone intrusions: Insights from analogue experiments analyzed with digital image correlation technique},
+   journal = {Journal of Volcanology and Geothermal Research},
+   volume = {183},
+   number = {3-4},
+   pages = {170-182},
+   ISSN = {0377-0273},
+   url = {http://www.sciencedirect.com/science/article/B6VCS-4VPD6N7-5/2/e40cdd147f43df97efc44f368e3d1920},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN16,
+   author = {Le Corvec, Nicolas and Walter, Thomas R. and Ruch, Joel and Bonforte, Alessandro and Puglisi, Giuseppe},
+   title = {Experimental study of the interplay between magmatic rift intrusion and flank instability with application to the 2001 Mount Etna eruption},
+   journal = {Journal of Geophysical Research: Solid Earth},
+   volume = {119},
+   number = {7},
+   pages = {2014JB011224},
+   ISSN = {2169-9356},
+   DOI = {10.1002/2014jb011224},
+   url = {http://dx.doi.org/10.1002/2014JB011224},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN17,
+   author = {Mazzarini, Francesco and Le Corvec, Nicolas and Isola, Ilaria and Favalli, Massimiliano},
+   title = {Volcanic field elongation, vent distribution, and tectonic evolution of a continental rift: The Main Ethiopian Rift example},
+   journal = {Geosphere},
+   volume = {12},
+   number = {3},
+   pages = {706-720},
+   DOI = {10.1130/ges01193.1},
+   url = {http://geosphere.gsapubs.org/content/12/3/706.abstract},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN18,
+   author = {Muirhead, James D. and Kattenhorn, Simon A. and Le Corvec, Nicolas},
+   title = {Varying styles of magmatic strain accommodation across the East African Rift},
+   journal = {Geochemistry, Geophysics, Geosystems},
+   volume = {16},
+   number = {8},
+   pages = {2775-2795},
+   ISSN = {1525-2027},
+   DOI = {10.1002/2015gc005918},
+   url = {http://dx.doi.org/10.1002/2015GC005918},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN19,
+   author = {Zorn, Edgar U. and Le Corvec, Nicolas and Varley, Nick R. and Salzer, Jacqueline T. and Walter, Thomas R. and Navarro-Ochoa, Carlos and Vargas-Bracamontes, Dulce M. and Thiele, Samuel T. and Arámbula Mendoza, Raúl},
+   title = {Load Stress Controls on Directional Lava Dome Growth at Volcán de Colima, Mexico},
+   journal = {Frontiers in Earth Science},
+   volume = {7},
+   number = {84},
+   ISSN = {2296-6463},
+   DOI = {10.3389/feart.2019.00084},
+   url = {https://www.frontiersin.org/article/10.3389/feart.2019.00084},
+   year = {2019},
+   type = {Journal Article}
+}
+
