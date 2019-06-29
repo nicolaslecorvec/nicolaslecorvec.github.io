@@ -412,18 +412,18 @@ footer {
     opacity:0;
 }
 .footlink {
-    color: #adbacc !important;
+    color: #FFFFFF !important;
 }
 .footlink:visited
 {
-    background-color: #adbacc; 
+    background-color: #adbacc;
 }
 .footlink:hover
 {
-    color: #adbacc; 
+    color: #adbacc;
 }
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
