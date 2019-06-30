@@ -13,6 +13,8 @@ navigation:
   url: /
 - root: CV
   url: /cv
+- root: Research
+  url: /research
 - root: Publications
   url: /publications
 - root: Twitter
