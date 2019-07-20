@@ -394,6 +394,44 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+nav ul li, footer ul li.bottom {
+	float: left;
+    display: inline;
+    margin-right: 20px;
+	margin-block-end: 0px;
+}
+
+/*--Footer Fiddling-->*/
+
+.container-footer {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.container-footer ul {
+margin-block-start: 0px;
+margin-block-end: 0px;
+margin-bottom: 0px;
+}
 footer {
 	background-size: 100% auto;
 	background-position: center top;
