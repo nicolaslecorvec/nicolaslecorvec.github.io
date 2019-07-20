@@ -451,6 +451,12 @@ footer {
 }
 .footlink {
     color: #FFFFFF !important;
+    text-decoration: underline;
+}
+
+p.foottext {
+	font-size: 0.9em;
+    color: #FFFFFF !important;
 }
 .footlink:visited
 {
