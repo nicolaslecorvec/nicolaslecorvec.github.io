@@ -399,6 +399,7 @@ p {
 }
 p.figurecaption {
 	font-size: 1.1em;
+  margin-top: 5px;
 }
 
 nav ul li, footer ul li.bottom {
