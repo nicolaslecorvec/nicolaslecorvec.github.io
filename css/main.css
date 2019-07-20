@@ -388,6 +388,9 @@ h1 {
 h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background: #b8c2b1;
+    font-weight: bold;
+    padding: 5px;
 }
 p {
     font-size: 1.5em;
