@@ -14,7 +14,15 @@ navigation:
 - root: CV
   url: /cv
 - root: Research
-  url: /research
+  first-level:
+    - text: Stability of volcanic edifices
+      url: /research/stability/index.html
+    - text: Spatial distribution of monogenetic volcanic vents
+      url: /research/spatialdistrib/index.html
+    - text: Magmato-tectonic interactions
+      url: /research/magmatotecto/index.html
+    - text: Stability of magma reservoirs
+      url: /research/stabilityMC/index.html
 - root: Publications
   url: /publications
 - root: Twitter
