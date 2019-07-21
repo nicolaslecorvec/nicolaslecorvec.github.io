@@ -22,10 +22,6 @@ navigation:
     url: /research/magmatotecto/index.html
     - text: Spatial Distribution of Monogenetic Volcanic Vents
     url: /research/spatialdistrib/index.html
-    - text: Stability of Magma Reservoirs
-    url: /research/stabilityreservoirs/index.html
-    - text: Stability of Volcanic Edifices
-    url: /research/stabilityvolcedif/index.html
 - root: Publications
   url: /publications
 - root: Twitter
