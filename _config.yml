@@ -15,7 +15,6 @@ navigation:
   url: /cv
 - root: Research
   first-level:
-    first-level:
     - text: Stability of volcanic edifices
     url: /research/stabilityvolcedif/index.html
     - text: Spatial distribution of monogenetic volcanic vents
