@@ -16,15 +16,15 @@ navigation:
 - root: Research
   url: /research
   first-level:
-    - text: Crustal magma reorientation
+    - text: Crustal Magma Reorientation
     url: /research/magmareorient/index.html
-    - text: Magmato-tectonic interactions
+    - text: Magmato-Tectonic Interactions
     url: /research/magmatotecto/index.html
-    - text: Spatial distribution of monogenetic volcanic vents
+    - text: Spatial Distribution of Monogenetic Volcanic Vents
     url: /research/spatialdistrib/index.html
-    - text: Stability of magma reservoirs
+    - text: Stability of Magma Reservoirs
     url: /research/stabilityreservoirs/index.html
-    - text: Stability of volcanic edifices
+    - text: Stability of Volcanic Edifices
     url: /research/stabilityvolcedif/index.html
 - root: Publications
   url: /publications
