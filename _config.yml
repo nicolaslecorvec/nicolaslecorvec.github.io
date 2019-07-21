@@ -24,8 +24,8 @@ navigation:
       url: /research/magmatotecto/index.html
       - text: Stability of magma reservoirs
       url: /research/stabilityreservoirs/index.html
-      - text: Magma reorientation
-      url: /research/Magmareoirent/index.html
+      - text: Crustal magma reorientation
+      url: /research/magmareorient/index.html
 - root: Publications
   url: /publications
 - root: Twitter
