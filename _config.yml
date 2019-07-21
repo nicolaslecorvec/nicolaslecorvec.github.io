@@ -16,6 +16,8 @@ navigation:
 - root: Research
   url: /research
   first-level:
+    - text: Belgian Climate Policy
+    url: /library/belgium/index.html
     - text: Crustal Magma Reorientation
     url: /research/magmareorient/index.html
     - text: Magmato-Tectonic Interactions
