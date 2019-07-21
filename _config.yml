@@ -10,12 +10,12 @@ url: http://nicolaslecorvec.github.io
 
 navigation:
 - root: Home
-  url: /
+url: /
 - root: CV
-  url: /cv
+url: /cv
 - root: Research
-  url: /research
-  first-level:
+url: /research
+first-level:
   - text: Stability of volcanic edifices
   url: /research/stabilityvolcedif/index.html
   - text: Spatial distribution of monogenetic volcanic vents
@@ -27,6 +27,6 @@ navigation:
   - text: Crustal magma reorientation
   url: /research/magmareorient/index.html
 - root: Publications
-  url: /publications
+url: /publications
 - root: Twitter
-  url: /twitter
+url: /twitter
