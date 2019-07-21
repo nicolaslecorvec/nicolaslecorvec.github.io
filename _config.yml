@@ -17,7 +17,7 @@ navigation:
   url: /research
   first-level:
     - text: Stability of volcanic edifices
-    url: /research/stability/index.html
+    url: /research/stabilityvolcedif/index.html
     - text: Spatial distribution of monogenetic volcanic vents
     url: /research/spatialdistrib/index.html
     - text: Magmato-tectonic interactions
