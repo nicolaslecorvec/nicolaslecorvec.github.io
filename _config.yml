@@ -14,16 +14,18 @@ navigation:
 - root: CV
   url: /cv
 - root: Research
-  url: /research
   first-level:
-    - text: Belgian Climate Policy
-    url: /library/belgium/index.html
-    - text: Crustal Magma Reorientation
-    url: /research/magmareorient/index.html
-    - text: Magmato-Tectonic Interactions
-    url: /research/magmatotecto/index.html
-    - text: Spatial Distribution of Monogenetic Volcanic Vents
+    first-level:
+    - text: Stability of volcanic edifices
+    url: /research/stabilityvolcedif/index.html
+    - text: Spatial distribution of monogenetic volcanic vents
     url: /research/spatialdistrib/index.html
+    - text: Magmato-tectonic interactions
+    url: /research/magmatotecto/index.html
+    - text: Stability of magma reservoirs
+    url: /research/stabilityreservoirs/index.html
+    - text: Crustal magma reorientation
+    url: /research/magmareorient/index.html
 - root: Publications
   url: /publications
 - root: Twitter
