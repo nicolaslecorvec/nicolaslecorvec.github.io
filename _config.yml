@@ -14,6 +14,7 @@ navigation:
 - root: CV
   url: /cv
 - root: Research
+  url: /research
   first-level:
     - text: Stability of volcanic edifices
       url: /research/stability/index.html
