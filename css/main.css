@@ -400,6 +400,7 @@ p {
 p.figurecaption {
 	font-size: 1.1em;
   margin-top: 5px;
+  line-height: normal;
 }
 
 nav ul li, footer ul li.bottom {
