@@ -483,3 +483,34 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* --- Language & Buttons --- */
+button {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+button:hover { background-color: #e6eef5; }
+
+/* --- Global Buttons --- */
+.btn {
+  background-color: #006994;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 5px;
+}
+.btn:hover { background-color: #004d6b; }
+
+/* --- Text & Layout --- */
+.blurb {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}

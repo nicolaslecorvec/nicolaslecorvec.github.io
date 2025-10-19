@@ -1,32 +1,37 @@
-name: Nicolas Le Corvec
-author: Nicolas Le Corvec
+name: "Dr. Nicolas Le Corvec"
+author: "Nicolas Le Corvec"
+title: "Geospatial Data Scientist | InSAR | Earth Observation | AI for Climate & Risk"
+description: "Applied research in InSAR, time-series analysis and AI-driven geospatial solutions for environmental resilience and risk management."
+url: "https://nicolaslecorvec.github.io"
+
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-url: http://nicolaslecorvec.github.io
-
 navigation:
 - root: Home
   url: /
 - root: CV
   url: /cv
-- root: Research
+- root: Projects
   url: /research
   first-level:
-    - text: Crustal Magma Reorientation
-      url: /research/magmareorient/index.html
-    - text: Magma-Tectonic Interactions
-      url: /research/magmatotecto/index.html
-    - text: Spatial Distribution of Monogenetic volcanoes
-      url: /research/spatialdistrib/index.html
-    - text: Stability of Magma Reservoirs
-      url: /research/stabilityreservoirs/index.html
-    - text: Stability Volcanic Edifices
-      url: /research/stabilityvolcedif/index.html
+    - text: InSAR & Ground Motion
+      url: /research/insar-groundmotion/index.html
+    - text: Shrink–Swell Hazard (RGA)
+      url: /research/shrink-swell/index.html
+    - text: OPTIM-Green (Horizon Europe)
+      url: /research/optim-green/index.html
+    - text: CartoVégétation (AI for Biodiversity)
+      url: /research/cartovegetation/index.html
+    - text: EO & Climate Resilience
+      url: /research/climate-resilience/index.html
 - root: Publications
   url: /publications
-- root: Twitter
-  url: /twitter
+- root: Contact
+  url: /cv
+
+lang: en
+timezone: Europe/Paris
