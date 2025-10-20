@@ -1,0 +1,135 @@
+/* === MODERN SCIENTIFIC PORTFOLIO STYLE === */
+
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #222;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* --- HEADER --- */
+header {
+  background: #003366;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 600;
+}
+header p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0;
+  opacity: 0.85;
+}
+
+/* --- NAVIGATION --- */
+nav {
+  background: #f0f2f5;
+  text-align: center;
+  padding: 0.8rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+nav a {
+  color: #003366;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+nav a:hover {
+  color: #006994;
+  text-decoration: underline;
+}
+
+/* --- MAIN CONTENT --- */
+main {
+  max-width: 850px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #003366;
+}
+p {
+  font-size: 1.1rem;
+  color: #333;
+  text-align: justify;
+}
+a {
+  color: #006994;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- BUTTONS --- */
+button {
+  background: #e6eef5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+button:hover {
+  background-color: #d4e0ec;
+}
+
+.btn {
+  background: #006994;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 6px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #004d6b;
+}
+
+/* --- FOOTER --- */
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #555;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+  margin-top: 3rem;
+}
+footer a {
+  color: #003366;
+  margin: 0 8px;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* --- LANGUAGE LAYOUT --- */
+.blurb {
+  margin-top: 1rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 700px) {
+  header h1 { font-size: 1.6rem; }
+  main { padding: 1rem; }
+  nav a { display: inline-block; margin: 0.6rem; }
+}
